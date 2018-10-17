@@ -14,6 +14,7 @@ Go to /etc/hosts and add a rule.
 
 127.0.0.1 local.com
 '''
+
 app.config['SERVER_NAME'] = 'local.com:5000'
 
 
